@@ -1,0 +1,6 @@
+__pycache__/
+*/temp*
+*/*/temp*
+temp?
+.ipynb_checkpoints/
+.git
