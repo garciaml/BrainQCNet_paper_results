@@ -1,0 +1,44 @@
+site,scan_type,manufacturer,model,headcoil,field_strength,sequence,flip_angle,snr,inversion_time,echo_time,repetition_time,bandwith_per_pixel,bandwith_per_voxel,parallel_aquisition,partial_fourier,number_of_slices,slice_orientation,slice_phase_encoding_direction,slice_acquisition_order,slice_thickness,slice_gap,field_of_view,acquisition_matrix,slice_inplace_resolution,number_of_measurements,acquisition_time,fat_suppression,number_of_directions,number_of_B_zeros,B_values,averages,reconstructed_voxels_dimensions
+ABIDE_II-BNI_1 ,anat,Philips,Ingenia,15Ch,3T,MPRAGE,9.0,,900,shortest,shortest,,240,SENSE x 1,,170.0,axial,,sequential,"1,2",0,270x252,244x227,"1,1x1,1",,05:34:00,no,,,,,"1,05x1,05x1,2"
+ABIDE_II-EMC_1 ,anat,GE,MR750,8Ch,3T,IR-FSPGR,16.0,,350,"4,236","10,27",,"20,83",ASSET x 2,,186.0,axial,,,"0,9",0,230x230,256x256,"0,9x0,9",,05:40:00,no,,,,,
+ABIDE_II-ETH_1 ,anat,Philips,Achieva,32Ch,3T,3D TFE,8.0,,1150,shortest,"8,4",,"188,3","SENSE x 2,3",no,180.0,axial,,,"0,9","0,09",230x230,256x256,"0,9x0,9",,05:46:00,no,,,,,
+ABIDE_II-GU_1 ,anat,Siemens,TriTim,12Ch,3T,MPRAGE,7.0,,1100,"3,5",2530,,190,GRAPPA x 2,no,176.0,axial,,,1,"0,5",256x256,256x256,1x1,,08:05:00,no,,,,,
+ABIDE_II-IP_1 ,anat,Philips,Achieva,8Ch,"1,5T",MPRAGE,30.0,,,"5,6",25,,,SENSE x 2,,170.0,axial,,,1,,240x240,240x240,1x1,,04:37:00,no,,,,,"0,94x0,94x1"
+ABIDE_II-IU_1 ,anat,Siemens,TriTim,32Ch,3T,3D TFL,8.0,,1000,"2,3",2400,,210,GRAPPA x 2,[7/8],256.0,axial,,,"0,7","0,35",224x224,320x320,"0,7x0,7",,07:02:00,no,,,,,
+ABIDE_II-KUL_3 ,anat,Philips,Achieva Ds,32Ch,3T,3D TFE,8.0,,900,"4,6","9,4",,131,"SENSE x P1,5 S2,5",,182.0,axial,,,"1,2",,250x250,208x207,"1,2x1,2",,01:43:00,no,,,,,"0,98x0,98x1,2"
+ABIDE_II-NYU_1 ,anat,Siemens,Allegra,8Ch,3T,3D TFL,7.0,,1100,"3,25","3,25",,200,,no,128.0,axial,,,"1,33","0,665",256x256,256x192,"1,3x1,0",,08:07:00,no,,,,,
+ABIDE_II-NYU_2 ,anat,Siemens,Allegra,8Ch,3T,3D TFL,7.0,,1100,"3,25","3,25",,200,,no,128.0,axial,,,"1,33","0,665",256x256,256x192,"1,3x1,0",,08:07:00,no,,,,,
+ABIDE_II-OHSU_1 ,anat,Siemens,TriTim,12Ch,3T,3D TFL,10.0,,900,"3,58",2300,,180,,no,160.0,axial,,,"1,1","0,55",256x240,256x256,1x1,,09:14:00,no,,,,,
+ABIDE_II-OILH_2 ,anat,Siemens,Skyra,32Ch,3T,MPRAGE,13.0,,794,"2,88",2200,,200,GRAPPA x 3,no,208.0,axial,,,"0,8","0,4",256x176,320x320,"0,8x0,8",,03:25:00,no,,,,,
+ABIDE_II-SDSU_1 ,anat,GE,MR750,8Ch,3T,3D SPGR,8.0,,600,"3,172","8,136",,"244,141",,no,172.0,axial,,,1,1,256x256,256x192,1x1,,04:54:00,no,,,,,
+ABIDE_II-TCD_1 ,anat,Philips,Achieva,8Ch,3T,MPRAGE,8.0,,1150,"3,9","8,4",,"188,3","SENSE x 2,3",no,190.0,axial,,,"0,9","0,09",230x230,256x256,"0,9x0,9",,05:43:00,no,,,,,
+ABIDE_II-UCD_1 ,anat,Siemens,TriTim,32Ch,3T,MPRAGE,8.0,,1050,"3,16",2000,,220,GRAPPA x 2,no,192.0,axial,,,1,"0,5",256x224,256x256,1x1,,04:06:00,no,,,,,
+ABIDE_II-UCLA_1 ,anat,Siemens,TriTim,12Ch,3T,MPRAGE,9.0,,853,"2,86",2300,,240,,no,160.0,axial,,,"1,2","0,6",256x240,256x256,1x1,,09:14:00,no,,,,,
+ABIDE_II-UCLA_long,anat,Siemens,TriTim,12Ch,3T,MPRAGE,9.0,,853,"2,86",2300,,240,,no,160.0,axial,,,"1,2","0,6",256x240,256x256,1x1,,09:14:00,no,,,,,
+ABIDE_II-UPSM_long,anat,Siemens,Allegra,8Ch,3T,MPRAGE,7.0,,1000,"3,93",2100,,130,,no,176.0,axial,,,"1,05","0,525",269x269,256x256,"1,1x1,1",,08:59:00,no,,,,,
+ABIDE_II-USM_1 ,anat,Siemens,TriTim,12Ch,3T,MPRAGE,9.0,,900,"2,91",900,,240,,no,160.0,axial,,,"1,2","0,6",256x240,256x256,1x1,,09:14:00,no,,,,,
+ABIDE_I-Stanford,anat,GE,SIGNA,,3T,ANAT T1,15.0,,,"1,8","8,4",,,,,132.0,axial,,,,,220x220,256x256,,,,,,,,,"0,859x1,5x0,859"
+ABIDE_I-OHSU,anat,Siemens,MAGNETOM TrioTim syngo MR B17,,3T,3D TFL,10.0,,900,"3,58",2300,180,,,,160.0,sagittal,A to P,,"1,1",,256x240,256x256,,1.0,09:14:00,,,,,1.0,"1,0x1,0x1,1"
+ABIDE_I-Caltech,anat,Siemens,MAGNETOM TrioTim syngo MR B17,,3T,3D TFL,10.0,1.0,800,"2,73",1590,200,,,no,176.0,sagittal,A to P,,1,"0,5",256*256,dem,dem,1.0,03:43:00,water excit. Fast,,,,1.0,"1,0x1,0x1,0"
+ABIDE_I-CMU,anat,Siemens,MAGNETOM Verio syngo MR B17,,,3D TFL,8.0,1.0,1100,"2,48",1870,170,,2,no,176.0,sagittal,A to P,,1,"0,5",256*256,dem,dem,1.0,04:21:00,no,,,,,"1,0x1,0x1,0"
+ABIDE_I-MaxMun,anat,Siemens,MAGNETOM Verio syngo MR B17,,,3D TFL,9.0,1.0,900,"3,06",1800,230,,2,[7/8],160.0,sagittal,A to P,,1,"0,5",256*240,,,1.0,03:41:00,no,,,,1.0,"1,0x1,0x1,0"
+ABIDE__I-NYU,anat,Siemens,MAGNETOM Allegra syngo MR 2004A,,,3D TFL,7.0,1.0,1100,"3,25",2530,200,,,no,128.0,sagittal,A to P,,"1,33","0,665",256*256,,,1.0,08:07:00,no,,,,1.0,"1,3x1,0x1,3"
+ABIDE_I-Olin,anat,Siemens,MAGNETOM Allegra syngo MR 2004A,,,3D TFL,8.0,1.0,900,"2,74",2500,190,,,[7/8],176.0,"T > S-1,3",R to L,,1,"0,5",256*256,,,,07:37:00,no,,,,,"1,0x1,0x1,0"
+ABIDE_I-Pitt,anat,Siemens,MAGNETOM Allegra syngo MR A30,,,3D TFL,7.0,1.0,1000,"3,93",2100,130,,,no,176.0,sagittal,A to P,,"1,05","0,525",269x269,,,1.0,08:59:00,no,,,,,"1,1x1,1x1,1"
+ABIDE_I-UCLA1,anat,Siemens,MAGNETOM TrioTim syngo MR B15,,,3D TFL,9.0,1.0,853,"2,84",2300,240,,,no,160.0,sagittal,A to P,,"1,2","0,6",256*240,,,1.0,09:14:00,no,,,,,"1,0x1,0x1,2"
+ABIDE_I-UCLA2,anat,Siemens,MAGNETOM TrioTim syngo MR B15,,,3D TFL,9.0,1.0,853,"2,84",2300,240,,,no,160.0,sagittal,A to P,,"1,2","0,6",256*240,,,1.0,09:14:00,no,,,,,"1,0x1,0x1,2"
+ABIDE_I-USM,anat,Siemens,MAGNETOM TrioTim syngo MR B17,,,3D TFL,9.0,1.0,900,"2,91",2300,240,,,no,160.0,sagittal,A to P,,"1,2","0,6",256*240,,,1.0,09:14:00,no,,,,,"1,0x1,0x1,02"
+ABIDE_I-Yale,anat,Siemens,MAGNETOM TrioTim syngo MR B17,32Ch,,3D TFL,9.0,1.0,624,"1,73",1230,320,,2,no,176.0,sagittal,A to P,,1,"0,5",250x250,,,1.0,08:34:00,no,,,,,"1,0x1,0x1,0"
+ABIDE_II-SU2,anat,GE,SIGNA,,3T,ANAT T1,11.0,,,"1,8","5,9","31,25",,,,132.0,axial,A to P,,1,,240x240,,,,,,,,,,"0,9375x0,9375x1,0"
+ABIDE_II-UMIA1,anat,GE,SIGNA,,3T,,12.0,,650,,,25,,,no,,sagittal,S to I,,1,,256*256,,,,,,,,,,
+ABIDE_I-Leuven1,anat,Philips,Intera,8Ch,3T,,8.0,,885,"4,6","9,6","135,4",,,,182.0,coronal,R to L,,,,250x250,256x256,,,"06:22,80",no,,,,,"0.98x0.98x1,2"
+ABIDE_I-Leuven2,anat,Philips,Intera,8Ch,3T,,8.0,,885,"3,6","9,6","135,4",,,no,182.0,coronal,R to L,,,,250x250,256x256,,,"06:22,80",no,,,,,"0.98x0.98x1,2"
+ABIDE_I-SDSU,anat,GE,,8Ch,3T,,8.0,,600,min full,,"31,25",,,no,176.0,sagittal,,,1,,256x256,,,,,,,,,,
+ABIDE_I-SBL,anat,Philips,Intera,32Ch,3T,,8.0,,144,"3,5",9,"191,5",,,no,170.0,transversal,A to L,,1,,256x232,256x256,,,"04:11,20",no,,,,,"1,0x1,0x1,0"
+ABIDE_I-Trinity,anat,,,8Ch,3T,,8.0,,1060,"3,9","8,5","178,7",,,no,160.0,sagittal,A to P,,,,256x256,256x256,,,"07:29,10",no,,,,,"1,0x1,0x1,0"
+ABIDE_II-ONRC2,anat,Siemens,MAGNETOM Skyra syngo MR D13,,,,13.0,,794,"2,88",2200,200,,,no,208.0,transversal,R to L,,"0,8","0,4",256x256,320x320,,,03:25:00,no,,,,,"0,8x0,8x0,8"
+ABIDE_I-UM1,anat,GE,SIGNA,,3T,T1 spgr/3D,15.0,,,"1,8",,"15,63",,,,128.0,axial,A to P,,"1,2",,260x260,,,,,,,,,,
+ABIDE_I-UM2,anat,GE,SIGNA,,3T,T1 spgr/3D,15.0,,,"1,8",,"15,63",,,,128.0,axial,A to P,,"1,2",,260x260,,,,,,,,,,
+ABIDE_II-KKI1,anat,Philips,Achieva,8Ch,3T,MPRAGE,8.0,,843,"3,7",8,"191,5",,,,200.0,coronal,R to L,,1,,256x200,256x256,,,"08:08,30",no,,,,,"1,0x1,0x1,0"
+ABIDE_II-KKI1,anat,Philips,Achieva,32Ch,3T,MPRAGE,8.0,,753,"3,7","8,2","192,9",,,,150.0,transversal,R to L,,1,,212x172,212x224,,,"04:25,60",no,,,,,"1,0x1,0x1,0"
+ABIDE_I-KKI,anat,Philips,Achieva,8Ch,3T,MPRAGE,8.0,,843,"3,7",8,"191,5",,,,200.0,coronal,R to L,,1,,256x200,256x256,,,"08:08,30",no,,,,,"1,0x1,0x1,0"
